@@ -41,6 +41,9 @@ CASABLANCA_DIR=<path to Casablanca> CXX=g++-4.8 cmake .. -DCMAKE_BUILD_TYPE=Rele
 make
 ```
 
+// for example CASABLANCA_DIR=CASABLANCA_DIR=/home/abokov/github/abokov/casablanca
+
+
 
 
 
