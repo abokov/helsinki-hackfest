@@ -44,6 +44,13 @@ make
 // for example CASABLANCA_DIR=CASABLANCA_DIR=/home/abokov/github/abokov/casablanca
 
 
+## Build samples ( and genomic-storage as well )
+```
+cd build.release
+CASABLANCA_DIR=/home/abokov/github/abokov/casablanca CXX=g++-4.8 cmake .. -DCMAKE_BUILD_TYPE=Release -DBUILD_SAMPLES=ON
+make
+```
+
 
 
 
