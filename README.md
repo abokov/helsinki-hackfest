@@ -60,6 +60,17 @@ You need to login into Azure portal, goto Storage Account blade and create new (
 ![Azure portal](/img/storage_credentials.png)
 
 
+## Usage of binary 'genomicstorage'
+After compile (in case of no errors ) binaries are located in
+'azure-storage-cpp/Microsoft.WindowsAzure.Storage/build.release/Binaries', so you can run 
+```
+./genomicstorage   _name_of_account_   _account_key_    _container_name_    _blob_name_     _upload_file_
+```
+Inside application there's some simple checking for params as well as catching exceptions, so in case of any error you will will see more-less detailed messages.
+
+
+
+
 
 
 
