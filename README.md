@@ -2,6 +2,8 @@
 
 # How to build
 
+It's very possible that we do need to customize cpprestdsk as well as azure-storage-sdk accordingly requirements on customer side, so I forked these projects in advance into my repo to be able make these changes. Currently changes which made are very minor - Genomic-Storage project exists inside samples ( which is just simpliest way to start, in future will move it outside of that SDK, as soon it should be indepented project ) and some changes made in CMakeFiles.txt in samples folder. Project Genomic-Storage is build under linux environment only currently ( no VS project ) as soon as we need Ubuntu/CentOS.
+
 ## Getting sources
 
 ```
