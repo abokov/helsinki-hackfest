@@ -68,7 +68,14 @@ After compile (in case of no errors ) binaries are located in
 ```
 Inside application there's some simple checking for params as well as catching exceptions, so in case of any error you will will see more-less detailed messages.
 
+##What is inside GenomicStorage class :
 
+Things are pretty simple :
+### Init
+takes all required params, do validation, but no any actions (like Azure API calls ), so nothing created/deleted/copied on that stage. If failed, returns false.
+
+### Save/Load/Run/other verbs
+These guys are doing actions
 
 
 
